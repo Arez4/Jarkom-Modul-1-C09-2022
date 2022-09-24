@@ -4,8 +4,8 @@ Praktikum Probstat Modul 2
 
 ```
 Andi Muhammad Rafli - 5025201089
-Adinda -
-Achmad Ferdiansyah -
+Adinda Zahra Pamuji - 5025201175
+Achmad Ferdiansyah - 5025201245
 ```
 
 ### Soal 1
@@ -57,6 +57,12 @@ a. Ketikkan <strong>tcp.dstport == 80</strong> pada kotak display filters
 
 <img width="468" alt="image" src="https://user-images.githubusercontent.com/102727966/192097201-830a2634-520f-47a6-9376-82f016055dba.png">
 
+### Soal 5
+> Filter sehingga wireshark hanya mengambil paket yang berasal dari port 443!
+a. Masukkan display filter “tcp.srcport == 443”
+
+<img width="468" alt="image" src="https://user-images.githubusercontent.com/102727966/192097250-9957e9fb-1e85-493d-b10c-5d47d5d99d67.png">
+
 ### Soal 6
 
 > Filter sehingga wireshark hanya menampilkan paket yang menuju ke lipi.go.id !
@@ -75,6 +81,24 @@ d. Lalu ketikkan ke display filters wireshark ip.dst == 203.160.128.158
 <img width="468" alt="image" src="https://user-images.githubusercontent.com/102727966/192097322-e4562c99-e323-402c-9179-feb0b0d4f111.png">
 
 e. Maka akan muncul seluruh paket yang menuju ke alamat IP lipi.go.id
+
+### Soal 7
+> Filter sehingga wireshark hanya mengambil paket yang berasal dari ip kalian!
+a. Buka commandprompt dan masukkan command “ipconfig” untuk mendapatkan IP address yang kita gunakan
+
+<img width="259" alt="image" src="https://user-images.githubusercontent.com/102727966/192097365-0834687f-ae5f-4fe2-a8a3-745fa6b7581d.png">
+
+b. Buka commandprompt dan masukkan command “ipconfig” untuk mendapatkan IP address yang kita gunakan
+
+<img width="259" alt="image" src="https://user-images.githubusercontent.com/102727966/192097396-5765078c-68e1-4277-9efa-d2c72add49cb.png">
+
+c. Buka aplikasi wireshark dan klik pada bagian wifi
+
+<img width="405" alt="image" src="https://user-images.githubusercontent.com/102727966/192097434-b474b385-efc6-4b47-a6e0-3b98074d5cd8.png">
+
+d. Masukkan display filter “ip.src == 192.168.191.221” dimana 192.168.192.221 merupakan ip yang saya gunakan
+
+<img width="468" alt="image" src="https://user-images.githubusercontent.com/102727966/192097451-f7e42335-99a6-4435-83ef-70841c3aa58e.png">
 
 ### Soal 8
 
